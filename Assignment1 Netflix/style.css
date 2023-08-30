@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(./backg.jpg);
+}
+.mainview {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+.main {
+  height: 150px;
+  width: 100%;
+  margin: auto;
+}
+.logo {
+  width: 150px;
+  height: 50px;
+  margin-left: 235px;
+  margin-top: 30px;
+}
+.submain {
+  height: 100%;
+  margin-right: 30px;
+  margin-top: -56px;
+  text-align: right;
+}
+
+.button {
+  text-align: right;
+  margin-top: 3px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px 14px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+.sign_in {
+  margin-right: 12px;
+}
+
+#textPart {
+  margin-top: 192px;
+}
+h1 {
+  color: white;
+  font-size: 55px;
+  margin-bottom: 13px;
+}
+p {
+  margin: 13px;
+  font-weight: 400;
+  color: white;
+}
+#first {
+  font-size: 28px;
+  margin-bottom: 26px;
+}
+#second {
+  font-size: 23px;
+}
+.center {
+  text-align: center;
+}
