@@ -4,6 +4,7 @@
 }
 body {
   background: url(./backg.jpg);
+  height: 2300px;
 }
 .mainview {
   background: rgba(0, 0, 0, 0.7);
