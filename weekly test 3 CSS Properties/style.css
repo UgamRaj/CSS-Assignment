@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background: linear-gradient(to right, #000000, #e74c3c);
+  color: white;
+  text-align: center;
+  padding-block: 10px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-block: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.navbtn {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+input {
+  border: none;
+  font-size: larger;
+  width: 30%;
+}
+
+#searchIcon {
+  padding: 2px;
+}
+
+.saleOffer {
+  padding: 6% 10%;
+  font-size: larger;
+  background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.offerSection {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2%;
+}
+
+.trending {
+  margin: 1.7% 5%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.trendingDiv {
+  margin: 0 10px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 1% 0.3% 1%;
+}
+
+.showout {
+  z-index: 1;
+}
+
+.trending1 {
+  color: white;
+  width: 120px;
+  height: 150px;
+  padding: 0.1%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.history {
+  height: 100vh;
+  padding: 2% 5%;
+  background: linear-gradient(to left, #000000, #434343);
+}
+
+.hisDiv {
+  position: relative;
+  padding: 2.2%;
+  height: 81.2%;
+  width: 94.6%;
+  margin: 6% auto auto auto;
+  box-shadow: 0px 0px 10px gray;
+  background: linear-gradient(to left, #e74c3c, #000000);
+  overflow: hidden;
+}
+
+.hisDivLeft {
+  width: 40%;
+  line-height: normal;
+  color: white;
+}
+
+.hisH1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.hisP {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.shoeImage {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 6%;
+  right: 3%;
+  box-shadow: 8px 8px 8px white;
+}
+
+.shoeImage:hover {
+  width: 400px;
+  height: 400px;
+  top: 20%;
+  right: 7%;
+}
