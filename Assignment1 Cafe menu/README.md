@@ -2,7 +2,7 @@
 
 ## Hosted Link
 
-[Cafe Menu](https://ugamraj.github.io/CSS-Assignment/Assignment1%20Cafe%20menu/)
+[Cafe Menu Link](https://ugamraj.github.io/CSS-Assignment/Assignment1%20Cafe%20menu/)
 
 ### Section
 
