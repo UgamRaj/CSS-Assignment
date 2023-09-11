@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,400;1,500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c8f3ea;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  color: #6782a2;
+  opacity: 0.7;
+}
+
+.outer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outer1 {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  background: rgb(214, 251, 255);
+  background: linear-gradient(
+    37deg,
+    rgba(214, 251, 255, 1) 0%,
+    rgba(215, 251, 255, 1) 82%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+}
+
+nav {
+  background-color: #eefbf9;
+  height: 100%;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  /* flex: 1; */
+}
+
+section {
+  height: 100%;
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2.5rem;
+  /* flex: 3; */
+  margin: 0 10px;
+}
+
+.game-container {
+  background-color: #e5f9f6;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-container img {
+  max-height: 8.5rem;
+}
+
+.assiasins-image {
+  width: 50px;
+  height: 70px;
+  border-radius: 1rem;
+}
+
+.profile-pitcure {
+  width: 4rem;
+  border-radius: 50%;
+}
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-text {
+  font-size: 0.6rem;
+}
+
+.pro-msg {
+  background-color: #80cbc2;
+  border-radius: 0.5rem;
+  display: flex;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  justify-content: space-around;
+}
+
+.pro-msg img {
+  max-height: 3rem;
+}
+
+.pro-msg h5 {
+  max-width: 50%;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  font-weight: 600;
+}
+
+.menu p {
+  display: inline;
+}
+
+.menu li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+
+.pro-msg h5 {
+  max-width: 45%;
+  color: #ffffff;
+}
+
+.progress {
+  width: 53%;
+  height: 1rem;
+  background-color: #ecfaf9;
+  border-radius: 20px;
+}
+
+.title-container {
+  margin-bottom: 2.5rem;
+}
+.title-container h1 {
+  font-size: xx-large;
+  opacity: 0.9;
+  font-weight: 900;
+}
+.game-details-container {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.game-details-container .progress {
+  background-color: #82cec0;
+  width: 100%;
+}
+
+.game-container > p {
+  margin-left: auto;
+  margin-right: 1rem;
+  align-self: center;
+}
