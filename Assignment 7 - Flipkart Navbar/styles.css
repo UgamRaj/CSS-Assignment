@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100vw;
+  background-color: #2874f0;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin-left: 55px;
+}
+.flipkartLogo {
+  cursor: pointer;
+}
+.plus-color {
+  color: #f3df0d;
+  font-weight: 600;
+}
+
+.logo p {
+  color: white;
+  position: relative;
+  top: -5px;
+  font-size: 11px;
+  font-style: italic;
+  cursor: pointer;
+}
+.logo p:hover {
+  text-decoration: underline;
+}
+
+.search {
+  background-color: white;
+  padding: 8px 8px;
+  width: 580px;
+  margin: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  color: #2874f0;
+  box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1), 7px 7px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2px 0 0 2px;
+}
+
+.search input {
+  width: 400px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 0 8px;
+  border-radius: 2px 0 0 2px;
+}
+
+.search .searchLogo {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.arrows {
+  transform: rotate(270deg);
+  margin: 1px 0 0 4px;
+}
+
+.arrows:hover {
+  transform: rotate(0deg) rotate(90deg);
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.arrow {
+  fill: #fff;
+  opacity: 0.8;
+}
+
+.arrowsblack {
+  transform: rotate(270deg);
+  margin: 1px 0 0 4px;
+}
+
+.arrowblack {
+  fill: #212121;
+}
+.arrowsblack:hover {
+  transform: rotate(0deg) rotate(90deg);
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.arrowblack:hover {
+  fill: #2874f0;
+}
+
+.loginbtn {
+  margin-left: 3%;
+  padding: 5px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 32px;
+  border: none;
+  outline: none;
+  color: #2874f0;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  cursor: pointer;
+}
+
+.navlink {
+  padding: 0 8px;
+  margin: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.seller {
+  width: 9vw;
+  margin-left: 35px;
+}
+
+.more {
+  margin-left: 10px;
+  width: 5vw;
+}
+
+.cart {
+  margin-left: 15px;
+  width: 5vw;
+}
+
+/* Below nav */
+
+.topProductNavbar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0 20px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+}
+
+.topProductNav1 {
+  width: 87%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topProductNav-nav {
+  min-height: 112px;
+  padding-left: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.topProductNav-nav img {
+  width: 64px;
+  margin-bottom: 4px;
+}
+
+.topProductNav-nav p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #212121;
+}
+
+.topProductNav-nav:hover p {
+  color: #2874f0;
+}
