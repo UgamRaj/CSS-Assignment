@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Roboto:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 65vw;
+  height: 80vh;
+  display: flex;
+  border-radius: 1rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(150, 159, 76);
+  background: linear-gradient(
+    to bottom,
+    #fefefe 0%,
+    #fefefe 22%,
+    #f0c50b 22%,
+    #f0c50b 100%
+  );
+}
+
+.image {
+  width: 15rem;
+}
+
+.image img {
+  width: 21vw;
+  height: 60vh;
+}
+
+.top {
+  background-color: #c2c22a;
+}
+
+.right-section {
+  width: 34%;
+  text-align: center;
+  margin: 6% 0 0 5%;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.last-p {
+  padding: 1rem 0;
+}
+
+button {
+  background-color: black;
+  color: #7c7c7c;
+  padding: 2% 8%;
+  font-size: 10px;
+  border: none;
+}
+
+.link {
+  color: black;
+  text-underline-offset: 4px;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    margin: auto;
+    background: linear-gradient(
+      to bottom,
+      #fefefe 0%,
+      #fefefe 25%,
+      #f0c50b 25%,
+      #f0c50b 100%
+    );
+  }
+
+  h1 {
+    margin: 0.7rem 0;
+    font-size: 28px;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .image {
+    width: 11rem;
+  }
+
+  .image img {
+    width: 17vw;
+    height: 55vh;
+  }
+
+  .right-section {
+    width: 45%;
+    text-align: center;
+    margin: 0 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+      to bottom,
+      #fefefe 0%,
+      #fefefe 25%,
+      #f0c50b 25%,
+      #f0c50b 100%
+    );
+  }
+
+  h1 {
+    margin: 0.6rem 0;
+    font-size: 24px;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 9px;
+    font-weight: 500;
+  }
+
+  .image {
+    width: auto;
+  }
+  .image img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .right-section {
+    width: auto;
+    text-align: center;
+    margin: 0 0;
+  }
+}
+
+@media only screen and (max-width: 403px) {
+  .image {
+    width: auto;
+  }
+  .image img {
+    width: 150px;
+    height: 150px;
+  }
+}
