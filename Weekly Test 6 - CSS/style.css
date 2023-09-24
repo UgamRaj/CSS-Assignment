@@ -363,7 +363,7 @@ hr {
 
 .images {
   width: 380px;
-  margin: 1rem 0;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -392,7 +392,8 @@ hr {
   background-image: url(./message\ card.png);
   background-repeat: no-repeat;
   width: 380px;
-  height: 5rem;
+  height: 6rem;
+  margin-top: 1rem;
   border: 1px solid #d9d6b2;
   text-align: center;
   font-family: Arial;
